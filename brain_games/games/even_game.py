@@ -22,7 +22,7 @@ def guess_even_number():
         else:
             print(f"'{answer}' is wrong answer ;(. \
 Correct answer was '{right_answer}'.")
-            print("Let's try again, Bill!")
+            print(f"Let's try again, {player_name}")
             break
     else:
-        print('Congratulations, Bill!')
+        print(f'Congratulations, {player_name}')

@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
-from brain_games.games import guess_even_number
+from brain_games.games.even_game import guess_even_number
 
 
 def main():
-    print('Welcome to the Brain Games!')
     guess_even_number()
 
 
