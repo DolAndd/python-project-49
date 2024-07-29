@@ -9,7 +9,7 @@ def guess_even_number():
     for i in range(3):
         random_number = randint(1, 100)
         print('Question:', random_number)
-        print('Your answer: ', end ='')
+        print('Your answer: ', end='')
         answer = input()
         right_answer = ''
         if random_number % 2 == 0:

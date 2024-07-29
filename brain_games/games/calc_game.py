@@ -12,6 +12,6 @@ def game_conditions():
         right_answer = num1 + num2
     elif operation == '-':
         right_answer = num1 - num2
-    else :
+    else:
         right_answer = num1 * num2
     return condition, right_answer
