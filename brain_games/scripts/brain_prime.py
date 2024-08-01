@@ -7,5 +7,6 @@ from brain_games.games.engine import play_games
 def main():
     play_games(prime_game)
 
+
 if __name__ == '__main__':
     main()
