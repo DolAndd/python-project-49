@@ -20,4 +20,4 @@ Correct answer was '{right_answer}'.")
             print(f"Let's try again, {player_name}")
             break
     else:
-        print(f'Congratulations, {player_name}')
+        print(f'Congratulations, {player_name}!')
