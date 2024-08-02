@@ -24,3 +24,6 @@ lint:
 
 reinstall:
 	python3 -m pip install  --force-reinstall dist/*.whl
+
+test-coverage:
+	poetry run pytest --cov=brain_games --cov-report xml
