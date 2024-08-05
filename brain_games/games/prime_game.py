@@ -1,8 +1,8 @@
 from random import randint
-exercise = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+EXERCISE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_conditions():
+def get_question_and_right_answer():
     random_number = randint(2, 100)
     condition = str(random_number)
     right_answer = 0
@@ -12,4 +12,4 @@ def game_conditions():
             break
     else:
         right_answer = 'yes'
-    return condition, right_answer
+    return condition, str(right_answer)

@@ -1,8 +1,8 @@
 from random import randint
-exercise = 'Answer "yes" if the number is even, otherwise answer "no".'
+EXERCISE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def game_conditions():
+def get_question_and_right_answer():
     random_number = randint(1, 100)
     condition = str(random_number)
     right_answer = ''
@@ -10,4 +10,4 @@ def game_conditions():
         right_answer = 'yes'
     else:
         right_answer = 'no'
-    return condition, right_answer
+    return condition, str(right_answer)

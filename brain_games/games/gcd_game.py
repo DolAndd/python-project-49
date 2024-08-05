@@ -1,8 +1,8 @@
 from random import randint
-exercise = 'Find the greatest common divisor of given numbers.'
+EXERCISE = 'Find the greatest common divisor of given numbers.'
 
 
-def game_conditions():
+def get_question_and_right_answer():
     num1 = randint(1, 30)
     num2 = randint(1, 30)
     condition = f'{num1} {num2}'
@@ -12,4 +12,4 @@ def game_conditions():
         else:
             num2 = num2 % num1
     right_answer = num1 + num2
-    return condition, right_answer
+    return condition, str(right_answer)
